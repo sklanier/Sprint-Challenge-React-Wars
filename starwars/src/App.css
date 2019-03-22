@@ -6,8 +6,23 @@
 }
 /* write your parent styles in here for your App.js */
 
-.cool-text {
+.cool-name {
   font-size: 30pt;
   font-family: 'ZCOOL XiaoWei', sans-serif;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
+
+.cool-title {
+  font-size: 20pt;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
   text-decoration: underline;
+  color: rgba(248, 226, 103, 0.61);
+}
+
+.cool-text {
+  font-size: 10pt;
+  font-family:  sans-serif;
+  text-decoration: none;
+  color: darkkhaki;
 }
