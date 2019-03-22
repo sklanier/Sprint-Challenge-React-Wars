@@ -5,3 +5,9 @@
   color: black;
 }
 /* write your parent styles in here for your App.js */
+
+.cool-text {
+  font-size: 30pt;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
+  text-decoration: underline;
+}
