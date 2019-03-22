@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid;
+  border-radius: 30%;
+  width:50%;
+  margin-right:0;
+  margin-bottom: 35px;
+  padding:25px;
+}
+
+#form {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
