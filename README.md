@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is a front-end framework designed to facilitate the creation of dynamic single-page applications through the use of a proprietary virtual document-object model.
+
 - [ ] What does it mean to _think_ in react?
+
+To "think" in react, I assume, is to approach a problem not as a top-to-bottom HTML document, but as a spatial, organic application that is dependant on the declaration of its view states.
 
 - [ ] Describe state.
 
+A state is how the viewport looks at a given point in the application's lifecycle. States are dynamic, and need to be defined by JS functions in order to render properly.
+
 - [ ] Describe props.
+
+"Props", or "properties", are literal variable representatives of data properties. They are static and do not change, and are used to link states within an application's lifecycle.
 
 ## Project Set Up
 

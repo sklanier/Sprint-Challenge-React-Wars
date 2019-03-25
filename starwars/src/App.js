@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import CharForm from './components/CharForm';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
     };
   }
 
@@ -22,7 +23,7 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
-        this.setState({ starwarsChars: data.results });
+        this.setState({ starwarsChars: data.results});
       })
       .catch(err => {
         throw new Error(err);
@@ -33,6 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <CharForm value={this.state.starwarsChars} />
       </div>
     );
   }
